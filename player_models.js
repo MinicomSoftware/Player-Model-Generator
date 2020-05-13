@@ -37,11 +37,10 @@ var capeInfo = new Dialog({
 
 MenuBar.addAction(new Action({
     id: 'generate_player_statue',
-    name: 'Generate Player Statue',
+    name: 'Generate Player Statue (Mod)',
     icon: 'accessibility',
     description: 'Generate a player shaped model',
     category: 'filter',
-    condition: () => !Blockbench.entity_mode,
     click: function(ev) {
         playerModelSettings.show()
     }
