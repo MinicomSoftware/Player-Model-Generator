@@ -2,7 +2,7 @@ var plugin_data = {
 	id: 'player_statue_generator',
 	title: 'Player Statue Generator',  
 	icon: 'accessibility',
-	author: 'Wither, dragonmaster95 and 3XH6R',
+	author: 'Wither, dragonmaster95 and 3XH6R (Modded by SCMowns)',
     description: 'Generates player shaped models.',
     version: '2.0.0',
     min_version: '2.1.0',
